@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "dutch-vocabulary",
+  "title": "Woordenschat",
+  "subject": "dutch",
+  "description": "Betekenissen, tegenstellingen en woordrelaties.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "dutch-vocabulary-001",
+      "type": "multiple-choice",
+      "prompt": "Welk woord betekent ongeveer hetzelfde als “blij”?",
+      "options": [
+        "vrolijk",
+        "boos",
+        "stil",
+        "moeilijk"
+      ],
+      "answer": "vrolijk",
+      "explanation": "“Blij” en “vrolijk” zijn woorden met een gelijkaardige betekenis."
+    },
+    {
+      "id": "dutch-vocabulary-002",
+      "type": "multiple-choice",
+      "prompt": "Wat is het tegenovergestelde van “donker”?",
+      "options": [
+        "licht",
+        "zacht",
+        "laag",
+        "smal"
+      ],
+      "answer": "licht",
+      "explanation": "Licht is het tegenovergestelde van donker."
+    },
+    {
+      "id": "dutch-vocabulary-003",
+      "type": "multiple-choice",
+      "prompt": "Welk woord past het best? “De speurder zoekt heel ___ naar sporen.”",
+      "options": [
+        "slordig",
+        "aandachtig",
+        "luid",
+        "hongerig"
+      ],
+      "answer": "aandachtig",
+      "explanation": "Wie naar sporen zoekt, kijkt aandachtig."
+    },
+    {
+      "id": "dutch-vocabulary-004",
+      "type": "multiple-choice",
+      "prompt": "Wat betekent “zeldzaam”?",
+      "options": [
+        "komt heel vaak voor",
+        "komt niet vaak voor",
+        "is altijd groot",
+        "is heel luid"
+      ],
+      "answer": "komt niet vaak voor",
+      "explanation": "Iets zeldzaams kom je maar weinig tegen."
+    },
+    {
+      "id": "dutch-vocabulary-005",
+      "type": "multiple-choice",
+      "prompt": "Welk woord hoort niet in het rijtje?",
+      "options": [
+        "viool",
+        "gitaar",
+        "trompet",
+        "kompas"
+      ],
+      "answer": "kompas",
+      "explanation": "De eerste drie zijn muziekinstrumenten; een kompas niet."
+    },
+    {
+      "id": "dutch-vocabulary-006",
+      "type": "multiple-choice",
+      "prompt": "Welk woord past bij “iemand die niet opgeeft”?",
+      "options": [
+        "volhardend",
+        "verstrooid",
+        "verlegen",
+        "verbaasd"
+      ],
+      "answer": "volhardend",
+      "explanation": "Een volhardend persoon blijft proberen."
+    }
+  ]
+}

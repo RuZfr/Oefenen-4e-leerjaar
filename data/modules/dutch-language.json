@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "dutch-language",
+  "title": "Taalbeschouwing",
+  "subject": "dutch",
+  "description": "Zinnen en woorden onderzoeken.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "dutch-language-001",
+      "type": "multiple-choice",
+      "prompt": "Welk woord is het werkwoord in: “Mila tekent een draak.”?",
+      "options": [
+        "Mila",
+        "tekent",
+        "een",
+        "draak"
+      ],
+      "answer": "tekent",
+      "explanation": "“Tekent” zegt wat Mila doet en is het werkwoord."
+    },
+    {
+      "id": "dutch-language-002",
+      "type": "multiple-choice",
+      "prompt": "Welk woord is een zelfstandig naamwoord?",
+      "options": [
+        "snel",
+        "fiets",
+        "lopen",
+        "mooie"
+      ],
+      "answer": "fiets",
+      "explanation": "“Fiets” is de naam van een ding."
+    },
+    {
+      "id": "dutch-language-003",
+      "type": "multiple-choice",
+      "prompt": "Wat is het onderwerp in: “De hond blaft luid.”?",
+      "options": [
+        "De hond",
+        "blaft",
+        "luid",
+        "blaft luid"
+      ],
+      "answer": "De hond",
+      "explanation": "De hond doet iets: hij blaft."
+    },
+    {
+      "id": "dutch-language-004",
+      "type": "true-false",
+      "prompt": "In de zin “Wij spelen buiten.” is “wij” het onderwerp.",
+      "answer": true,
+      "explanation": "“Wij” voeren de handeling uit."
+    },
+    {
+      "id": "dutch-language-005",
+      "type": "multiple-choice",
+      "prompt": "Welk woord zegt hoe iets is?",
+      "options": [
+        "tafel",
+        "groen",
+        "springen",
+        "morgen"
+      ],
+      "answer": "groen",
+      "explanation": "“Groen” kan een eigenschap van iets beschrijven."
+    },
+    {
+      "id": "dutch-language-006",
+      "type": "multiple-choice",
+      "prompt": "Welke zin staat in de verleden tijd?",
+      "options": [
+        "Ik fiets naar huis.",
+        "Ik fietste naar huis.",
+        "Ik zal naar huis fietsen.",
+        "Fiets naar huis!"
+      ],
+      "answer": "Ik fietste naar huis.",
+      "explanation": "“Fietste” is een werkwoordsvorm in de verleden tijd."
+    }
+  ]
+}

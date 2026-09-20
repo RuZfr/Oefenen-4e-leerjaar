@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "math-geometry",
+  "title": "Meetkunde",
+  "subject": "math",
+  "description": "Vormen, lijnen, hoeken en ruimte.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "math-geometry-001",
+      "type": "multiple-choice",
+      "prompt": "Welke figuur heeft precies drie zijden?",
+      "options": [
+        "vierkant",
+        "driehoek",
+        "cirkel",
+        "rechthoek"
+      ],
+      "answer": "driehoek",
+      "explanation": "Een driehoek heeft drie zijden."
+    },
+    {
+      "id": "math-geometry-002",
+      "type": "true-false",
+      "prompt": "Een vierkant heeft vier rechte hoeken.",
+      "answer": true,
+      "explanation": "Dat klopt: alle vier de hoeken zijn recht."
+    },
+    {
+      "id": "math-geometry-003",
+      "type": "multiple-choice",
+      "prompt": "Welke lijn verdeelt een figuur in twee spiegelbeelden?",
+      "options": [
+        "een middellijn",
+        "een symmetrieas",
+        "een straal",
+        "een diagonaal"
+      ],
+      "answer": "een symmetrieas",
+      "explanation": "Langs een symmetrieas zijn beide helften elkaars spiegelbeeld."
+    },
+    {
+      "id": "math-geometry-004",
+      "type": "multiple-choice",
+      "prompt": "Welke vorm heeft een voetbal ongeveer?",
+      "options": [
+        "kubus",
+        "bol",
+        "cilinder",
+        "piramide"
+      ],
+      "answer": "bol",
+      "explanation": "Een voetbal heeft ongeveer de vorm van een bol."
+    },
+    {
+      "id": "math-geometry-005",
+      "type": "number",
+      "prompt": "Hoeveel zijden hebben twee vierkanten samen?",
+      "answer": 8,
+      "explanation": "Elk vierkant heeft 4 zijden: 2 × 4 = 8."
+    },
+    {
+      "id": "math-geometry-006",
+      "type": "true-false",
+      "prompt": "Een rechthoek is altijd ook een vierkant.",
+      "answer": false,
+      "explanation": "Een vierkant is een bijzondere rechthoek, maar niet elke rechthoek heeft vier even lange zijden."
+    }
+  ]
+}

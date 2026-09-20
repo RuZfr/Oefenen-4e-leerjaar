@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "id": "oefenen-4e",
+    "title": "Oefenen 4e leerjaar",
+    "subtitle": "Kies een vak en oefen op jouw tempo.",
+    "grade": "4e leerjaar"
+  },
+  "subjects": [
+    {
+      "id": "math",
+      "title": "Wiskunde",
+      "shortTitle": "Wiskunde",
+      "icon": "＋",
+      "accent": "blue",
+      "order": 1,
+      "enabled": true,
+      "description": "Rekenen, meten en meetkunde.",
+      "categories": [
+        {
+          "id": "math-numbers",
+          "title": "Getallen en bewerkingen",
+          "icon": "123",
+          "file": "math-numbers.json",
+          "enabled": true,
+          "order": 1
+        },
+        {
+          "id": "math-measurement",
+          "title": "Meten",
+          "icon": "↔",
+          "file": "math-measurement.json",
+          "enabled": true,
+          "order": 2
+        },
+        {
+          "id": "math-geometry",
+          "title": "Meetkunde",
+          "icon": "△",
+          "file": "math-geometry.json",
+          "enabled": true,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "dutch",
+      "title": "Nederlands",
+      "shortTitle": "Nederlands",
+      "icon": "Aa",
+      "accent": "green",
+      "order": 2,
+      "enabled": true,
+      "description": "Taal, spelling, lezen en communiceren.",
+      "categories": [
+        {
+          "id": "dutch-language",
+          "title": "Taalbeschouwing",
+          "icon": "Aa",
+          "file": "dutch-language.json",
+          "enabled": true,
+          "order": 1
+        },
+        {
+          "id": "dutch-reading",
+          "title": "Lezen",
+          "icon": "▤",
+          "file": "dutch-reading.json",
+          "enabled": true,
+          "order": 2
+        },
+        {
+          "id": "dutch-listening",
+          "title": "Luisteren",
+          "icon": "◖",
+          "file": "dutch-listening.json",
+          "enabled": true,
+          "order": 3
+        },
+        {
+          "id": "dutch-spelling",
+          "title": "Spelling",
+          "icon": "✓",
+          "file": "dutch-spelling.json",
+          "enabled": true,
+          "order": 4
+        },
+        {
+          "id": "dutch-vocabulary",
+          "title": "Woordenschat",
+          "icon": "Ab",
+          "file": "dutch-vocabulary.json",
+          "enabled": true,
+          "order": 5
+        },
+        {
+          "id": "dutch-speaking",
+          "title": "Spreken",
+          "icon": "●",
+          "file": "dutch-speaking.json",
+          "enabled": true,
+          "order": 6
+        },
+        {
+          "id": "dutch-writing",
+          "title": "Schrijven",
+          "icon": "✎",
+          "file": "dutch-writing.json",
+          "enabled": true,
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "W.O.",
+      "shortTitle": "W.O.",
+      "icon": "◎",
+      "accent": "amber",
+      "order": 3,
+      "enabled": true,
+      "description": "Mens, maatschappij, natuur, techniek, ruimte en tijd.",
+      "categories": [
+        {
+          "id": "world-society",
+          "title": "Mens en maatschappij",
+          "icon": "☻",
+          "file": "world-society.json",
+          "enabled": true,
+          "order": 1
+        },
+        {
+          "id": "world-science",
+          "title": "Wetenschap en techniek",
+          "icon": "⚙",
+          "file": "world-science.json",
+          "enabled": true,
+          "order": 2
+        },
+        {
+          "id": "world-geography",
+          "title": "Aardrijkskunde",
+          "icon": "⌖",
+          "file": "world-geography.json",
+          "enabled": true,
+          "order": 3
+        },
+        {
+          "id": "world-history",
+          "title": "Geschiedenis",
+          "icon": "◷",
+          "file": "world-history.json",
+          "enabled": true,
+          "order": 4
+        }
+      ]
+    }
+  ]
+}

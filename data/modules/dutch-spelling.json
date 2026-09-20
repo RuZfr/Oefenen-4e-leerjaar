@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "dutch-spelling",
+  "title": "Spelling",
+  "subject": "dutch",
+  "description": "Woorden en zinnen correct schrijven.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "dutch-spelling-001",
+      "type": "multiple-choice",
+      "prompt": "Welke spelling is juist?",
+      "options": [
+        "gebeurt",
+        "gebeurd",
+        "gebeurdt",
+        "gebuurt"
+      ],
+      "answer": "gebeurt",
+      "explanation": "In “Het gebeurt nu” is “gebeurt” de persoonsvorm."
+    },
+    {
+      "id": "dutch-spelling-002",
+      "type": "multiple-choice",
+      "prompt": "Welk woord is juist geschreven?",
+      "options": [
+        "onmiddelijk",
+        "onmiddellijk",
+        "onmidelijk",
+        "onmidellijk"
+      ],
+      "answer": "onmiddellijk",
+      "explanation": "“Onmiddellijk” schrijf je met dubbele d én dubbele l."
+    },
+    {
+      "id": "dutch-spelling-003",
+      "type": "input",
+      "prompt": "Schrijf het meervoud van “fiets”.",
+      "answer": "fietsen",
+      "accepted": [
+        "fietsen"
+      ],
+      "explanation": "Het meervoud van fiets is fietsen."
+    },
+    {
+      "id": "dutch-spelling-004",
+      "type": "input",
+      "prompt": "Schrijf het verkleinwoord van “boom”.",
+      "answer": "boompje",
+      "accepted": [
+        "boompje"
+      ],
+      "explanation": "Het verkleinwoord is boompje."
+    },
+    {
+      "id": "dutch-spelling-005",
+      "type": "multiple-choice",
+      "prompt": "Welke zin begint en eindigt correct?",
+      "options": [
+        "morgen gaan we zwemmen.",
+        "Morgen gaan we zwemmen",
+        "Morgen gaan we zwemmen.",
+        "morgen gaan we zwemmen"
+      ],
+      "answer": "Morgen gaan we zwemmen.",
+      "explanation": "Een zin begint met een hoofdletter en eindigt hier met een punt."
+    },
+    {
+      "id": "dutch-spelling-006",
+      "type": "multiple-choice",
+      "prompt": "Welke spelling is juist?",
+      "options": [
+        "pannekoek",
+        "pannenkoek",
+        "pannekoeck",
+        "pannenkoeck"
+      ],
+      "answer": "pannenkoek",
+      "explanation": "“Pannenkoek” schrijf je met -nn- en -koek."
+    }
+  ]
+}

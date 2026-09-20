@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "world-geography",
+  "title": "Aardrijkskunde",
+  "subject": "world",
+  "description": "Kaarten, ruimte, landschap en oriëntatie.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "world-geography-001",
+      "type": "multiple-choice",
+      "prompt": "Waarvoor gebruik je een kompas?",
+      "options": [
+        "om windrichting te bepalen",
+        "om temperatuur te meten",
+        "om gewicht te meten",
+        "om tijd te meten"
+      ],
+      "answer": "om windrichting te bepalen",
+      "explanation": "Een kompas helpt je noord, oost, zuid en west te bepalen."
+    },
+    {
+      "id": "world-geography-002",
+      "type": "multiple-choice",
+      "prompt": "Welke kleur wordt op veel kaarten gebruikt voor water?",
+      "options": [
+        "blauw",
+        "rood",
+        "zwart",
+        "oranje"
+      ],
+      "answer": "blauw",
+      "explanation": "Op veel kaarten wordt water blauw weergegeven."
+    },
+    {
+      "id": "world-geography-003",
+      "type": "true-false",
+      "prompt": "Een rivier stroomt meestal van hoger naar lager gelegen gebied.",
+      "answer": true,
+      "explanation": "Door de zwaartekracht stroomt water naar lagere gebieden."
+    },
+    {
+      "id": "world-geography-004",
+      "type": "multiple-choice",
+      "prompt": "Welke windrichting ligt tegenover het noorden?",
+      "options": [
+        "oost",
+        "west",
+        "zuid",
+        "noordoost"
+      ],
+      "answer": "zuid",
+      "explanation": "Noord en zuid liggen tegenover elkaar."
+    },
+    {
+      "id": "world-geography-005",
+      "type": "multiple-choice",
+      "prompt": "Wat zie je op een plattegrond?",
+      "options": [
+        "een plaats van bovenaf",
+        "alleen het weer",
+        "een verhaal uit het verleden",
+        "alleen foto’s van dieren"
+      ],
+      "answer": "een plaats van bovenaf",
+      "explanation": "Een plattegrond stelt een gebied schematisch van bovenaf voor."
+    },
+    {
+      "id": "world-geography-006",
+      "type": "multiple-choice",
+      "prompt": "Wat is een grens?",
+      "options": [
+        "een lijn die gebieden van elkaar scheidt",
+        "een soort berg",
+        "een rivier die altijd bevriest",
+        "een straat zonder huizen"
+      ],
+      "answer": "een lijn die gebieden van elkaar scheidt",
+      "explanation": "Een grens geeft aan waar het ene gebied eindigt en een ander begint."
+    }
+  ]
+}

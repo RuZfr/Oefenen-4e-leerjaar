@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "dutch-speaking",
+  "title": "Spreken",
+  "subject": "dutch",
+  "description": "Duidelijk vertellen, uitleggen en je mening verwoorden.",
+  "sessionLength": 4,
+  "questions": [
+    {
+      "id": "dutch-speaking-001",
+      "type": "open",
+      "prompt": "Vertel in ongeveer 30 seconden over iets waar je goed in bent.",
+      "tip": "Denk aan: wat kun je, hoe heb je het geleerd en waarom vind je het leuk?"
+    },
+    {
+      "id": "dutch-speaking-002",
+      "type": "open",
+      "prompt": "Leg aan iemand uit hoe je van de klas naar de speelplaats gaat.",
+      "tip": "Gebruik duidelijke volgwoorden: eerst, daarna, vervolgens, ten slotte."
+    },
+    {
+      "id": "dutch-speaking-003",
+      "type": "open",
+      "prompt": "Geef je mening: moet elke klas een huisdier hebben?",
+      "tip": "Zeg duidelijk wat je vindt en geef minstens twee redenen."
+    },
+    {
+      "id": "dutch-speaking-004",
+      "type": "open",
+      "prompt": "Beschrijf een voorwerp zonder de naam ervan te zeggen. Laat iemand raden wat het is.",
+      "tip": "Vertel iets over vorm, kleur, materiaal en waarvoor je het gebruikt."
+    }
+  ]
+}
