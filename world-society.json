@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "world-society",
+  "title": "Mens en maatschappij",
+  "subject": "world",
+  "description": "Samenleven, regels, rollen en maatschappij.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "world-society-001",
+      "type": "multiple-choice",
+      "prompt": "Wat is een voorbeeld van een afspraak die helpt om veilig samen te leven?",
+      "options": [
+        "door rood licht fietsen",
+        "stoppen voor een rood licht",
+        "afval op straat gooien",
+        "voordringen in een rij"
+      ],
+      "answer": "stoppen voor een rood licht",
+      "explanation": "Verkeersregels helpen mensen veilig samen te leven."
+    },
+    {
+      "id": "world-society-002",
+      "type": "true-false",
+      "prompt": "Iedereen in een groep moet altijd dezelfde mening hebben.",
+      "answer": false,
+      "explanation": "Mensen mogen verschillende meningen hebben. Respectvol luisteren is belangrijk."
+    },
+    {
+      "id": "world-society-003",
+      "type": "multiple-choice",
+      "prompt": "Wie helpt vooral bij het blussen van een brand?",
+      "options": [
+        "brandweer",
+        "bibliothecaris",
+        "bakker",
+        "postbode"
+      ],
+      "answer": "brandweer",
+      "explanation": "De brandweer bestrijdt brand en helpt bij noodsituaties."
+    },
+    {
+      "id": "world-society-004",
+      "type": "multiple-choice",
+      "prompt": "Wat is een goede manier om een ruzie op te lossen?",
+      "options": [
+        "harder roepen",
+        "weglopen zonder iets te zeggen",
+        "naar elkaar luisteren en afspraken maken",
+        "anderen erbij halen om partij te kiezen"
+      ],
+      "answer": "naar elkaar luisteren en afspraken maken",
+      "explanation": "Luisteren en samen naar een oplossing zoeken helpt om conflicten op te lossen."
+    },
+    {
+      "id": "world-society-005",
+      "type": "true-false",
+      "prompt": "Vrijwilligers doen werk waarvoor ze niet altijd betaald worden.",
+      "answer": true,
+      "explanation": "Vrijwilligers zetten zich vrijwillig in voor anderen of een organisatie."
+    },
+    {
+      "id": "world-society-006",
+      "type": "multiple-choice",
+      "prompt": "Welke plek is een openbare dienst?",
+      "options": [
+        "gemeentehuis",
+        "slaapkamer",
+        "tuinhuis",
+        "speelgoedkast"
+      ],
+      "answer": "gemeentehuis",
+      "explanation": "Een gemeentehuis biedt diensten aan inwoners van de gemeente."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "world-history",
+  "title": "Geschiedenis",
+  "subject": "world",
+  "description": "Tijd, bronnen en gebeurtenissen uit het verleden.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "world-history-001",
+      "type": "multiple-choice",
+      "prompt": "Wat is een bron uit het verleden?",
+      "options": [
+        "een oude foto",
+        "een voorspelling over 2050",
+        "een leeg blad zonder informatie",
+        "een verzonnen antwoord zonder aanwijzingen"
+      ],
+      "answer": "een oude foto",
+      "explanation": "Een oude foto kan informatie geven over hoe iets vroeger was."
+    },
+    {
+      "id": "world-history-002",
+      "type": "multiple-choice",
+      "prompt": "Welke tijd ligt het verst in het verleden?",
+      "options": [
+        "gisteren",
+        "vorige week",
+        "vorig jaar",
+        "100 jaar geleden"
+      ],
+      "answer": "100 jaar geleden",
+      "explanation": "100 jaar geleden ligt verder terug dan gisteren, vorige week of vorig jaar."
+    },
+    {
+      "id": "world-history-003",
+      "type": "true-false",
+      "prompt": "Een tijdlijn helpt gebeurtenissen in de juiste tijdsvolgorde te plaatsen.",
+      "answer": true,
+      "explanation": "Op een tijdlijn kun je zien wat vroeger en later gebeurde."
+    },
+    {
+      "id": "world-history-004",
+      "type": "multiple-choice",
+      "prompt": "Wat betekent “chronologisch”?",
+      "options": [
+        "in tijdsvolgorde",
+        "op alfabet",
+        "van groot naar klein",
+        "zonder volgorde"
+      ],
+      "answer": "in tijdsvolgorde",
+      "explanation": "Chronologisch betekent gerangschikt volgens de tijd."
+    },
+    {
+      "id": "world-history-005",
+      "type": "multiple-choice",
+      "prompt": "Welke vraag helpt een historicus bij een oude brief?",
+      "options": [
+        "Wie schreef deze brief en wanneer?",
+        "Welke kleur heeft mijn fiets?",
+        "Wat eten we morgen?",
+        "Hoeveel punten krijg ik?"
+      ],
+      "answer": "Wie schreef deze brief en wanneer?",
+      "explanation": "Bij een bron is het belangrijk te weten wie ze maakte en uit welke tijd ze komt."
+    },
+    {
+      "id": "world-history-006",
+      "type": "true-false",
+      "prompt": "Alles wat oud is, vertelt automatisch precies wat er vroeger is gebeurd.",
+      "answer": false,
+      "explanation": "Bronnen moeten onderzocht en met andere informatie vergeleken worden."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dutch-listening",
+  "title": "Luisteren",
+  "subject": "dutch",
+  "description": "Luistervaardigheid. In deze eerste foundation staan demo-opdrachten; echte audio kan later per module toegevoegd worden.",
+  "sessionLength": 4,
+  "questions": [
+    {
+      "id": "dutch-listening-001",
+      "type": "open",
+      "prompt": "Luisteropdracht: laat iemand deze boodschap voorlezen en vertel daarna de drie belangrijkste woorden.",
+      "context": "“Neem morgen je turnzak, drinkfles en rode map mee.”",
+      "tip": "Controleer of je turnzak, drinkfles en rode map genoemd hebt."
+    },
+    {
+      "id": "dutch-listening-002",
+      "type": "multiple-choice",
+      "prompt": "Demo met uitgeschreven luistertekst: waar spreken ze af?",
+      "context": "Luistertekst voor de demo: “We zien elkaar om drie uur aan de ingang van de bibliotheek.”",
+      "options": [
+        "aan de schoolpoort",
+        "aan de ingang van de bibliotheek",
+        "in het zwembad",
+        "bij de bakker"
+      ],
+      "answer": "aan de ingang van de bibliotheek",
+      "explanation": "Dat wordt letterlijk in de boodschap gezegd."
+    },
+    {
+      "id": "dutch-listening-003",
+      "type": "multiple-choice",
+      "prompt": "Demo met uitgeschreven luistertekst: hoe laat vertrekt de trein?",
+      "context": "Luistertekst voor de demo: “De trein naar Antwerpen vertrekt om tien voor negen.”",
+      "options": [
+        "08:10",
+        "08:50",
+        "09:10",
+        "09:50"
+      ],
+      "answer": "08:50",
+      "explanation": "Tien voor negen is 08:50."
+    },
+    {
+      "id": "dutch-listening-004",
+      "type": "open",
+      "prompt": "Luisteropdracht: laat iemand de zin één keer voorlezen. Herhaal ze daarna zo volledig mogelijk.",
+      "context": "“Na de speeltijd verzamelen we rustig aan de blauwe deur.”",
+      "tip": "Belangrijke elementen: na de speeltijd, rustig verzamelen, blauwe deur."
+    }
+  ],
+  "note": "Audio-ondersteuning is voorzien als volgende uitbreiding; de huidige demo gebruikt voorleesteksten."
+}

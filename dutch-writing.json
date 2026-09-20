@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "dutch-writing",
+  "title": "Schrijven",
+  "subject": "dutch",
+  "description": "Korte teksten plannen, schrijven en controleren.",
+  "sessionLength": 4,
+  "questions": [
+    {
+      "id": "dutch-writing-001",
+      "type": "open",
+      "prompt": "Schrijf drie zinnen over je ideale vrije dag.",
+      "tip": "Controleer hoofdletters, punten en of elke zin duidelijk is."
+    },
+    {
+      "id": "dutch-writing-002",
+      "type": "open",
+      "prompt": "Schrijf een kort bericht waarmee je een klasgenoot uitnodigt om samen te oefenen.",
+      "tip": "Vermeld wat je wilt doen, wanneer en waar."
+    },
+    {
+      "id": "dutch-writing-003",
+      "type": "open",
+      "prompt": "Bedenk een spannend begin van twee zinnen voor een verhaal.",
+      "tip": "Probeer meteen nieuwsgierigheid op te wekken: waar ben je, wat gebeurt er, wat is vreemd?"
+    },
+    {
+      "id": "dutch-writing-004",
+      "type": "open",
+      "prompt": "Schrijf een korte instructie om een boterham klaar te maken.",
+      "tip": "Gebruik een logische volgorde en werkwoorden die duidelijk zeggen wat je moet doen."
+    }
+  ]
+}

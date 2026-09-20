@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "dutch-reading",
+  "title": "Lezen",
+  "subject": "dutch",
+  "description": "Begrijpend lezen met korte teksten.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "dutch-reading-001",
+      "type": "multiple-choice",
+      "prompt": "Waarom neemt Noor haar regenjas mee?",
+      "context": "Noor kijkt naar buiten. Donkere wolken schuiven over de lucht. Ze stopt snel haar regenjas in haar rugzak en vertrekt naar school.",
+      "options": [
+        "Omdat het warm wordt.",
+        "Omdat het waarschijnlijk gaat regenen.",
+        "Omdat ze gaat zwemmen.",
+        "Omdat haar rugzak leeg is."
+      ],
+      "answer": "Omdat het waarschijnlijk gaat regenen.",
+      "explanation": "De donkere wolken zijn een aanwijzing dat het kan gaan regenen."
+    },
+    {
+      "id": "dutch-reading-002",
+      "type": "multiple-choice",
+      "prompt": "Wat gebeurt er eerst?",
+      "context": "Sam maakt zijn huiswerk. Daarna eet hij een appel. Ten slotte gaat hij voetballen.",
+      "options": [
+        "Sam gaat voetballen.",
+        "Sam eet een appel.",
+        "Sam maakt zijn huiswerk.",
+        "Sam gaat slapen."
+      ],
+      "answer": "Sam maakt zijn huiswerk.",
+      "explanation": "Dat staat als eerste in de tekst."
+    },
+    {
+      "id": "dutch-reading-003",
+      "type": "multiple-choice",
+      "prompt": "Wat is de beste titel?",
+      "context": "In de schooltuin planten de kinderen zaadjes. Elke week geven ze water. Na een tijdje verschijnen kleine groene blaadjes.",
+      "options": [
+        "Een kapotte fiets",
+        "Groei in de schooltuin",
+        "Een dag aan zee",
+        "De drukke winkel"
+      ],
+      "answer": "Groei in de schooltuin",
+      "explanation": "De hele tekst gaat over planten die groeien in de schooltuin."
+    },
+    {
+      "id": "dutch-reading-004",
+      "type": "true-false",
+      "prompt": "De kinderen geven de plantjes elke dag water.",
+      "context": "In de schooltuin planten de kinderen zaadjes. Elke week geven ze water. Na een tijdje verschijnen kleine groene blaadjes.",
+      "answer": false,
+      "explanation": "In de tekst staat “elke week”, niet elke dag."
+    },
+    {
+      "id": "dutch-reading-005",
+      "type": "multiple-choice",
+      "prompt": "Wat betekent “uitgeput” hier het best?",
+      "context": "Na de lange fietstocht ploft Amir uitgeput op de bank. Hij wil eerst even rusten.",
+      "options": [
+        "heel moe",
+        "heel boos",
+        "heel vrolijk",
+        "heel snel"
+      ],
+      "answer": "heel moe",
+      "explanation": "De context zegt dat Amir na een lange fietstocht wil rusten."
+    },
+    {
+      "id": "dutch-reading-006",
+      "type": "multiple-choice",
+      "prompt": "Welke informatie kun je uit de tekst afleiden?",
+      "context": "De bel gaat. Iedereen stopt zijn boeken in de boekentas. Buiten staan ouders te wachten.",
+      "options": [
+        "De schooldag is voorbij.",
+        "De les begint net.",
+        "Iedereen gaat zwemmen.",
+        "Het is middernacht."
+      ],
+      "answer": "De schooldag is voorbij.",
+      "explanation": "Boeken worden opgeborgen en ouders wachten buiten: dat past bij het einde van de schooldag."
+    }
+  ]
+}

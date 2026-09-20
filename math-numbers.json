@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "math-numbers",
+  "title": "Getallen en bewerkingen",
+  "subject": "math",
+  "description": "Getallen lezen, vergelijken en ermee rekenen.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "math-numbers-001",
+      "type": "number",
+      "prompt": "Hoeveel is 348 + 275?",
+      "answer": 623,
+      "explanation": "348 + 275 = 623."
+    },
+    {
+      "id": "math-numbers-002",
+      "type": "multiple-choice",
+      "prompt": "Welk getal is het grootst?",
+      "options": [
+        "3 409",
+        "3 490",
+        "3 049",
+        "3 094"
+      ],
+      "answer": "3 490",
+      "explanation": "Vergelijk eerst de duizendtallen en daarna de honderdtallen."
+    },
+    {
+      "id": "math-numbers-003",
+      "type": "number",
+      "prompt": "Hoeveel is 900 − 475?",
+      "answer": 425,
+      "explanation": "900 − 475 = 425."
+    },
+    {
+      "id": "math-numbers-004",
+      "type": "multiple-choice",
+      "prompt": "Welke vermenigvuldiging heeft als uitkomst 72?",
+      "options": [
+        "8 × 9",
+        "7 × 8",
+        "6 × 10",
+        "9 × 9"
+      ],
+      "answer": "8 × 9",
+      "explanation": "8 × 9 = 72."
+    },
+    {
+      "id": "math-numbers-005",
+      "type": "number",
+      "prompt": "24 koekjes worden eerlijk verdeeld over 6 kinderen. Hoeveel krijgt elk kind?",
+      "answer": 4,
+      "explanation": "24 ÷ 6 = 4."
+    },
+    {
+      "id": "math-numbers-006",
+      "type": "multiple-choice",
+      "prompt": "Welk getal ligt precies tussen 380 en 400?",
+      "options": [
+        "385",
+        "390",
+        "395",
+        "398"
+      ],
+      "answer": "390",
+      "explanation": "Van 380 tot 400 is 20; de helft daarvan is 10. 380 + 10 = 390."
+    }
+  ]
+}

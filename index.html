@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#315EE8">
+  <meta name="description" content="Oefenapp voor het 4e leerjaar met flexibele vakken en onderwerpen.">
+  <meta name="app-version" content="0.1.0">
+  <title>Oefenen 4e leerjaar</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css?v=0.1.0">
+</head>
+<body>
+  <div id="splash" class="splash-screen" aria-hidden="true">
+    <div class="splash-inner">
+      <img class="splash-logo" src="icons/logo-mark.svg" alt="" width="96" height="96">
+      <p class="splash-kicker">OEFENEN 4E LEERJAAR</p>
+      <h2 class="splash-title">Kies een vak en ga aan de slag</h2>
+      <p class="splash-subtitle">Rustig oefenen. Stap voor stap sterker.</p>
+    </div>
+  </div>
+
+  <main class="app">
+    <header class="topbar">
+      <button id="homeBrand" class="brand brand-button" type="button" aria-label="Terug naar vakken">
+        <img class="brand-logo" src="icons/logo-mark.svg" alt="" width="48" height="48">
+        <span class="brand-copy"><span class="eyebrow">LEREN OP JOUW TEMPO</span><span class="brand-title">Oefenen 4e leerjaar</span></span>
+      </button>
+      <div class="topbar-actions">
+        <button id="themeBtn" class="icon-button" type="button" aria-label="Donkere modus" title="Donkere modus"><img id="themeIcon" class="button-icon" src="icons/icon-moon.svg" alt=""></button>
+        <button id="settingsBtn" class="icon-button" type="button" aria-label="Instellingen" title="Instellingen"><img class="button-icon" src="icons/icon-settings.svg" alt=""></button>
+      </div>
+    </header>
+
+    <nav id="breadcrumbs" class="breadcrumbs" aria-label="Kruimelpad" hidden></nav>
+
+    <section id="homeView" class="view" aria-labelledby="homeTitle">
+      <div class="hero">
+        <span class="hero-badge">4E LEERJAAR</span>
+        <h1 id="homeTitle">Wat wil je oefenen?</h1>
+        <p>Kies een vak. Daarna kies je zelf het onderwerp.</p>
+      </div>
+      <div id="subjectGrid" class="subject-grid"></div>
+    </section>
+
+    <section id="subjectView" class="view" hidden aria-labelledby="subjectTitle">
+      <div class="section-heading">
+        <div><span id="subjectBadge" class="hero-badge">VAK</span><h1 id="subjectTitle">Vak</h1><p id="subjectDescription"></p></div>
+      </div>
+      <div id="categoryGrid" class="category-grid"></div>
+    </section>
+
+    <section id="exerciseView" class="view" hidden aria-labelledby="moduleTitle">
+      <div class="exercise-top">
+        <button id="exerciseBackBtn" class="back-button" type="button">← Onderwerpen</button>
+        <div class="exercise-heading"><span id="exerciseSubject" class="mini-label"></span><h1 id="moduleTitle">Oefening</h1></div>
+        <span id="progressText" class="progress-text"></span>
+      </div>
+      <div id="progressTrack" class="progress-track" role="progressbar" aria-label="Voortgang" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progressBar" class="progress-bar"></div></div>
+      <p id="moduleNote" class="module-note" hidden></p>
+
+      <article class="question-card" aria-live="polite">
+        <p id="questionKind" class="question-kind"></p>
+        <div id="questionContext" class="question-context" hidden></div>
+        <h2 id="questionPrompt" class="question-prompt"></h2>
+        <div id="answerArea"></div>
+        <div id="feedback" class="feedback-box" hidden><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div>
+        <button id="nextBtn" class="primary-button next-button" type="button" hidden>Volgende</button>
+      </article>
+    </section>
+
+    <section id="resultView" class="view result-view" hidden aria-labelledby="resultTitle">
+      <div class="result-icon">✓</div>
+      <p class="mini-label">OEFENRONDE KLAAR</p>
+      <h1 id="resultTitle">Goed gewerkt!</h1>
+      <p id="resultScore" class="result-score"></p>
+      <p id="resultMessage" class="result-message"></p>
+      <div class="result-actions"><button id="againBtn" class="primary-button" type="button">Nog eens oefenen</button><button id="resultBackBtn" class="secondary-button" type="button">Andere oefening kiezen</button></div>
+    </section>
+  </main>
+
+  <div id="settingsBackdrop" class="settings-backdrop" hidden></div>
+  <aside id="settingsPanel" class="settings-panel" role="dialog" aria-modal="false" aria-labelledby="settingsTitle" aria-hidden="true" inert>
+    <div class="settings-panel-header"><div><p class="settings-kicker">Oefenen 4e leerjaar</p><h2 id="settingsTitle">Instellingen</h2></div><button id="settingsCloseBtn" class="icon-button" type="button" aria-label="Sluit instellingen"><img class="button-icon" src="icons/icon-close.svg" alt=""></button></div>
+    <div class="settings-panel-body">
+      <section class="settings-section"><h3>Deze app is flexibel opgebouwd</h3><p class="settings-help">Vakken en onderwerpen worden geladen uit <code>data/curriculum.json</code>. Namen kunnen later gewijzigd worden zonder de oefenmotor te herschrijven.</p></section>
+      <section class="settings-section"><h3>Voortgang</h3><p id="progressSummary" class="settings-meta">Nog geen oefeningen gemaakt.</p><button id="resetProgressBtn" class="settings-action danger" type="button">Wis lokale voortgang</button><p id="settingsStatus" class="settings-status" aria-live="polite"></p></section>
+      <section class="settings-section"><h3>Foundation v0.1</h3><p class="settings-help">Meerdere vraagtypes zijn al voorzien: meerkeuze, juist/fout, getal, tekstinvoer en open opdrachten. Audio en afbeeldingen kunnen later als module-uitbreiding toegevoegd worden.</p></section>
+    </div>
+  </aside>
+
+  <script src="js/storage.js?v=0.1.0"></script>
+  <script src="js/engine.js?v=0.1.0"></script>
+  <script src="js/app.js?v=0.1.0"></script>
+</body>
+</html>

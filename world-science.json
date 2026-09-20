@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "world-science",
+  "title": "Wetenschap en techniek",
+  "subject": "world",
+  "description": "Natuurverschijnselen, onderzoeken en techniek.",
+  "sessionLength": 6,
+  "questions": [
+    {
+      "id": "world-science-001",
+      "type": "multiple-choice",
+      "prompt": "Wat heeft een plant nodig om goed te groeien?",
+      "options": [
+        "licht, water en geschikte grond",
+        "alleen stenen",
+        "alleen wind",
+        "donkerte en geen water"
+      ],
+      "answer": "licht, water en geschikte grond",
+      "explanation": "Planten hebben onder andere licht en water nodig om te groeien."
+    },
+    {
+      "id": "world-science-002",
+      "type": "true-false",
+      "prompt": "Een magneet trekt elk soort metaal even sterk aan.",
+      "answer": false,
+      "explanation": "Niet alle metalen worden door een gewone magneet aangetrokken."
+    },
+    {
+      "id": "world-science-003",
+      "type": "multiple-choice",
+      "prompt": "Welke stof verandert bij afkoelen van vloeibaar naar vast?",
+      "options": [
+        "water dat ijs wordt",
+        "papier dat scheurt",
+        "hout dat brandt",
+        "zand dat valt"
+      ],
+      "answer": "water dat ijs wordt",
+      "explanation": "Bij voldoende afkoeling bevriest water en wordt het vast."
+    },
+    {
+      "id": "world-science-004",
+      "type": "multiple-choice",
+      "prompt": "Waarom heeft een fiets remmen?",
+      "options": [
+        "om sneller te gaan",
+        "om af te remmen en te stoppen",
+        "om de banden groter te maken",
+        "om licht te geven"
+      ],
+      "answer": "om af te remmen en te stoppen",
+      "explanation": "Remmen vertragen de wielen zodat je veilig kunt stoppen."
+    },
+    {
+      "id": "world-science-005",
+      "type": "multiple-choice",
+      "prompt": "Welke energiebron gebruikt een zonnepaneel?",
+      "options": [
+        "zonlicht",
+        "regenwater",
+        "steenkool in het paneel",
+        "wind in de kabel"
+      ],
+      "answer": "zonlicht",
+      "explanation": "Een zonnepaneel zet energie uit zonlicht om in elektriciteit."
+    },
+    {
+      "id": "world-science-006",
+      "type": "true-false",
+      "prompt": "Een schaduw ontstaat wanneer licht door een ondoorzichtig voorwerp wordt tegengehouden.",
+      "answer": true,
+      "explanation": "Achter het voorwerp bereikt minder licht de ondergrond, waardoor een schaduw ontstaat."
+    }
+  ]
+}
